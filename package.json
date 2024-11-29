@@ -1,19 +1,18 @@
 {
-  "name": "Scrim-s00nh28h2d",
-  "description": "https://v2.scrimba.com/s00nh28h2d",
+  "name": "Scrim-s06j1gs",
+  "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~0xfa/s0lvv6r1g3/head",
   "scripts": {
-    "watch": "webpack -w",
-    "build": "webpack"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "webpack": "^2.0"
+    "react": "19.0.0-rc-8b08e99e-20240713",
+    "react-dom": "19.0.0-rc-8b08e99e-20240713",
+    "vite": "latest"
   },
   "devDependencies": {
-    "babel-core": "^6.0",
-    "babel-loader": "^7.0",
-    "babel-preset-env": "*",
-    "babel-preset-react": "*"
+    "@vitejs/plugin-react": "*"
   }
 }
